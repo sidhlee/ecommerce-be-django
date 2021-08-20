@@ -1,10 +1,17 @@
 from django.shortcuts import render
 from django.http import JsonResponse
+
+from rest_framework.decorators import api_view
+from rest_framework.response import Response
+
 from .products import products
+
+
 
 # Create your views here.
 
-
+# Pass in allowed methods
+@api_view(['GET'])
 def getRoute(request):
   routes = [
     '/api/products',
@@ -22,7 +29,8 @@ def getRoute(request):
   ]
 
   # If safe=True (default) only dictionary is allowed to be serialized
-  return JsonResponse(routes, safe=False)
+  return Response(routes)
 
+@api_view(['GET'])
 def getProducts(request):
-  return JsonResponse(products, safe=False)
+  return Response(products)

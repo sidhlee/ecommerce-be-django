@@ -21,6 +21,17 @@ Open up Windows Powershell and run the following:
 13. Run server by going inside the project folder you created in step 5 and run `python manage.py runserver`
 14. Add more apps by `python manage.py startapp base` and registering it to `INSTALLED_app` list inside `settings.py`
 
+## Troubleshoot
+
+### Rest_Framework: Error: OperationalError at /api/ no such table: django_session
+
+You need to run migrations to make django_session available. Refer to this [article](https://thequickblog.com/django-rest-framework-operationalerror-no-such-table-django-session/)
+
+```bash
+python manage.py makemigrations
+python manage.py migrate
+```
+
 ## Reference
 
 - [Your first steps with Django: Set up a Django project](https://realpython.com/django-setup/)
