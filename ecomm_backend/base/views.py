@@ -1,5 +1,6 @@
 from django.shortcuts import render
 from django.http import JsonResponse
+from .products import products
 
 # Create your views here.
 
@@ -22,3 +23,6 @@ def getRoute(request):
 
   # If safe=True (default) only dictionary is allowed to be serialized
   return JsonResponse(routes, safe=False)
+
+def getProducts(request):
+  return JsonResponse(products, safe=False)
