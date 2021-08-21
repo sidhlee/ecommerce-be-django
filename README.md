@@ -21,6 +21,10 @@ Open up Windows Powershell and run the following:
 13. Run server by going inside the project folder you created in step 5 and run `python manage.py runserver`
 14. Add more apps by `python manage.py startapp base` and registering it to `INSTALLED_app` list inside `settings.py`
 
+## Django-Cors-Headers
+
+To allow in-browser requests to your Django-app from other origins, you can install [django-cors-headers](https://github.com/adamchainz/django-cors-headers).
+
 ## Troubleshoot
 
 ### Rest_Framework: Error: OperationalError at /api/ no such table: django_session

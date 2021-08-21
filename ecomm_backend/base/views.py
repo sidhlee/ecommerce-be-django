@@ -34,3 +34,21 @@ def getRoute(request):
 @api_view(['GET'])
 def getProducts(request):
   return Response(products)
+
+@api_view(['GET'])
+# pk for primary key because id is an inbuilt function in python.
+def getProduct(request, pk):
+  """
+  Send individual product.
+
+        Parameters:
+          pk: primary key
+  """
+
+  product = None
+  for p in products:
+      if p['sync_product']['id'] == pk:
+        product = p
+        break
+
+  return Response(product)
