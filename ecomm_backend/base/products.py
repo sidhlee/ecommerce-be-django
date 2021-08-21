@@ -7,7 +7,7 @@ products = [
       "variants": 3,
       "synced": 3,
       "thumbnail_url":
-        '"https"://files.cdn.printful.com/files/15e/15e76888e332529165566a6205a16cd1_preview.png',
+        'https://files.cdn.printful.com/files/15e/15e76888e332529165566a6205a16cd1_preview.png',
       "is_ignored": False,
     },
    "sync_variants": [
@@ -26,7 +26,7 @@ products = [
           "variant_id": 10163,
           "product_id": 358,
           "image":
-            '"https"://files.cdn.printful.com/products/358/10163_1553083889.jpg',
+            'https://files.cdn.printful.com/products/358/10163_1553083889.jpg',
           "name": 'Kiss Cut Stickers (3x3in)',
         },
         "files": [
@@ -34,7 +34,7 @@ products = [
             "id": 349262339,
             "type": 'default',
             "hash": 'ca858feb9d91b008a75ff15e894e9473',
-            "url": '"https"://www.googleapis.com/drive/v2/files/1jYtM39HRaNdSBtVBckCi54-FBt1kGD3B?alt=media',
+            "url": 'https://www.googleapis.com/drive/v2/files/1jYtM39HRaNdSBtVBckCi54-FBt1kGD3B?alt=media',
             "filename": 'The-Centaur.jpg',
             "mime_type": 'image/jpeg',
             "size": 3875705,
@@ -44,9 +44,9 @@ products = [
             "status": 'ok',
             "created": 1629032428,
             "thumbnail_url":
-              '"https"://files.cdn.printful.com/files/ca8/ca858feb9d91b008a75ff15e894e9473_thumb.png',
+              'https://files.cdn.printful.com/files/ca8/ca858feb9d91b008a75ff15e894e9473_thumb.png',
             "preview_url":
-              '"https"://files.cdn.printful.com/files/ca8/ca858feb9d91b008a75ff15e894e9473_preview.png',
+              'https://files.cdn.printful.com/files/ca8/ca858feb9d91b008a75ff15e894e9473_preview.png',
             "visible": True,
           },
           {
@@ -63,9 +63,9 @@ products = [
             "status": 'ok',
             "created": 1629032619,
             "thumbnail_url":
-              '"https"://files.cdn.printful.com/files/15e/15e76888e332529165566a6205a16cd1_thumb.png',
+              'https://files.cdn.printful.com/files/15e/15e76888e332529165566a6205a16cd1_thumb.png',
             "preview_url":
-              '"https"://files.cdn.printful.com/files/15e/15e76888e332529165566a6205a16cd1_preview.png',
+              'https://files.cdn.printful.com/files/15e/15e76888e332529165566a6205a16cd1_preview.png',
             "visible": False,
           },
         ],
@@ -87,7 +87,7 @@ products = [
           "variant_id": 10164,
           "product_id": 358,
           "image":
-            '"https"://files.cdn.printful.com/products/358/10164_1553083894.jpg',
+            'https://files.cdn.printful.com/products/358/10164_1553083894.jpg',
           "name": 'Kiss Cut Stickers (4x4in)',
         },
         "files": [
@@ -95,7 +95,7 @@ products = [
             "id": 349262339,
             "type": 'default',
             "hash": 'ca858feb9d91b008a75ff15e894e9473',
-            "url": '"https"://www.googleapis.com/drive/v2/files/1jYtM39HRaNdSBtVBckCi54-FBt1kGD3B?alt=media',
+            "url": 'https://www.googleapis.com/drive/v2/files/1jYtM39HRaNdSBtVBckCi54-FBt1kGD3B?alt=media',
             "filename": 'The-Centaur.jpg',
             "mime_type": 'image/jpeg',
             "size": 3875705,
@@ -105,9 +105,9 @@ products = [
             "status": 'ok',
             "created": 1629032428,
             "thumbnail_url":
-              '"https"://files.cdn.printful.com/files/ca8/ca858feb9d91b008a75ff15e894e9473_thumb.png',
+              'https://files.cdn.printful.com/files/ca8/ca858feb9d91b008a75ff15e894e9473_thumb.png',
             "preview_url":
-              '"https"://files.cdn.printful.com/files/ca8/ca858feb9d91b008a75ff15e894e9473_preview.png',
+              'https://files.cdn.printful.com/files/ca8/ca858feb9d91b008a75ff15e894e9473_preview.png',
             "visible": True,
           },
           {
@@ -124,9 +124,9 @@ products = [
             "status": 'ok',
             "created": 1629032619,
             "thumbnail_url":
-              '"https"://files.cdn.printful.com/files/5cc/5cc4c18fabaff945bc2bd1178db46657_thumb.png',
+              'https://files.cdn.printful.com/files/5cc/5cc4c18fabaff945bc2bd1178db46657_thumb.png',
             "preview_url":
-              '"https"://files.cdn.printful.com/files/5cc/5cc4c18fabaff945bc2bd1178db46657_preview.png',
+              'https://files.cdn.printful.com/files/5cc/5cc4c18fabaff945bc2bd1178db46657_preview.png',
             "visible": False,
           },
         ],
@@ -148,7 +148,7 @@ products = [
           "variant_id": 10165,
           "product_id": 358,
           "image":
-            '"https"://files.cdn.printful.com/products/358/10165_1553083897.jpg',
+            'https://files.cdn.printful.com/products/358/10165_1553083897.jpg',
           "name": 'Kiss Cut Stickers (5.5x5.5in)',
         },
         "files": [
@@ -156,7 +156,7 @@ products = [
             "id": 349262339,
             "type": 'default',
             "hash": 'ca858feb9d91b008a75ff15e894e9473',
-            "url": '"https"://www.googleapis.com/drive/v2/files/1jYtM39HRaNdSBtVBckCi54-FBt1kGD3B?alt=media',
+            "url": 'https://www.googleapis.com/drive/v2/files/1jYtM39HRaNdSBtVBckCi54-FBt1kGD3B?alt=media',
             "filename": 'The-Centaur.jpg',
             "mime_type": 'image/jpeg',
             "size": 3875705,
@@ -166,9 +166,9 @@ products = [
             "status": 'ok',
             "created": 1629032428,
             "thumbnail_url":
-              '"https"://files.cdn.printful.com/files/ca8/ca858feb9d91b008a75ff15e894e9473_thumb.png',
+              'https://files.cdn.printful.com/files/ca8/ca858feb9d91b008a75ff15e894e9473_thumb.png',
             "preview_url":
-              '"https"://files.cdn.printful.com/files/ca8/ca858feb9d91b008a75ff15e894e9473_preview.png',
+              'https://files.cdn.printful.com/files/ca8/ca858feb9d91b008a75ff15e894e9473_preview.png',
             "visible": True,
           },
           {
@@ -185,9 +185,9 @@ products = [
             "status": 'ok',
             "created": 1629032619,
             "thumbnail_url":
-              '"https"://files.cdn.printful.com/files/4c3/4c35858a8b3c88b2e430831c07afcca5_thumb.png',
+              'https://files.cdn.printful.com/files/4c3/4c35858a8b3c88b2e430831c07afcca5_thumb.png',
             "preview_url":
-              '"https"://files.cdn.printful.com/files/4c3/4c35858a8b3c88b2e430831c07afcca5_preview.png',
+              'https://files.cdn.printful.com/files/4c3/4c35858a8b3c88b2e430831c07afcca5_preview.png',
             "visible": False,
           },
         ],
@@ -204,7 +204,7 @@ products = [
       "variants": 1,
       "synced": 1,
       "thumbnail_url":
-        '"https"://files.cdn.printful.com/files/e68/e68755ef1afee16da4cbacd9c9ff3cdd_preview.png',
+        'https://files.cdn.printful.com/files/e68/e68755ef1afee16da4cbacd9c9ff3cdd_preview.png',
       "is_ignored": False,
     },
     "sync_variants": [
@@ -223,7 +223,7 @@ products = [
           "variant_id": 11513,
           "product_id": 433,
           "image":
-            '"https"://files.cdn.printful.com/products/433/11513_1592384192.jpg',
+            'https://files.cdn.printful.com/products/433/11513_1592384192.jpg',
           "name": 'Standard Postcards (4"x6")',
         },
         "files": [
@@ -231,7 +231,7 @@ products = [
             "id": 349259950,
             "type": 'default',
             "hash": 'bdbb9522745a9e90ca90f1b1068721d8',
-            "url": '"https"://www.googleapis.com/drive/v2/files/1NzQzaOhCSgpPKWLnZ6NeFeDXTxCL0DKG?alt=media',
+            "url": 'https://www.googleapis.com/drive/v2/files/1NzQzaOhCSgpPKWLnZ6NeFeDXTxCL0DKG?alt=media',
             "filename": 'ipod_penclub.jpg',
             "mime_type": 'image/jpeg',
             "size": 1297442,
@@ -241,9 +241,9 @@ products = [
             "status": 'ok',
             "created": 1629031408,
             "thumbnail_url":
-              '"https"://files.cdn.printful.com/files/bdb/bdbb9522745a9e90ca90f1b1068721d8_thumb.png',
+              'https://files.cdn.printful.com/files/bdb/bdbb9522745a9e90ca90f1b1068721d8_thumb.png',
             "preview_url":
-              '"https"://files.cdn.printful.com/files/bdb/bdbb9522745a9e90ca90f1b1068721d8_preview.png',
+              'https://files.cdn.printful.com/files/bdb/bdbb9522745a9e90ca90f1b1068721d8_preview.png',
             "visible": True,
           },
           {
@@ -260,9 +260,9 @@ products = [
             "status": 'ok',
             "created": 1629032078,
             "thumbnail_url":
-              '"https"://files.cdn.printful.com/files/e68/e68755ef1afee16da4cbacd9c9ff3cdd_thumb.png',
+              'https://files.cdn.printful.com/files/e68/e68755ef1afee16da4cbacd9c9ff3cdd_thumb.png',
             "preview_url":
-              '"https"://files.cdn.printful.com/files/e68/e68755ef1afee16da4cbacd9c9ff3cdd_preview.png',
+              'https://files.cdn.printful.com/files/e68/e68755ef1afee16da4cbacd9c9ff3cdd_preview.png',
             "visible": False,
           },
         ],
@@ -279,7 +279,7 @@ products = [
       "variants": 1,
       "synced": 1,
       "thumbnail_url":
-        '"https"://files.cdn.printful.com/files/a57/a574dbe27bee940a86433ec5b0f09a18_preview.png',
+        'https://files.cdn.printful.com/files/a57/a574dbe27bee940a86433ec5b0f09a18_preview.png',
       "is_ignored": False,
     },
     "sync_variants": [
@@ -298,7 +298,7 @@ products = [
           "variant_id": 1320,
           "product_id": 19,
           "image":
-            '"https"://files.cdn.printful.com/products/19/1320_1519393894.jpg',
+            'https://files.cdn.printful.com/products/19/1320_1519393894.jpg',
           "name": 'White Glossy Mug 11oz',
         },
         "files": [
@@ -316,9 +316,9 @@ products = [
             "status": 'ok',
             "created": 1629031849,
             "thumbnail_url":
-              '"https"://files.cdn.printful.com/printfile-preview/349261034/b3f01e308155b4900eb7dc7931323d97_thumb.png',
+              'https://files.cdn.printful.com/printfile-preview/349261034/b3f01e308155b4900eb7dc7931323d97_thumb.png',
             "preview_url":
-              '"https"://files.cdn.printful.com/printfile-preview/349261034/b3f01e308155b4900eb7dc7931323d97_preview.png',
+              'https://files.cdn.printful.com/printfile-preview/349261034/b3f01e308155b4900eb7dc7931323d97_preview.png',
             "visible": False,
           },
           {
@@ -335,9 +335,9 @@ products = [
             "status": 'ok',
             "created": 1629031849,
             "thumbnail_url":
-              '"https"://files.cdn.printful.com/files/c3b/c3b6a4e7df90244e60179d0bb5fabf17_thumb.png',
+              'https://files.cdn.printful.com/files/c3b/c3b6a4e7df90244e60179d0bb5fabf17_thumb.png',
             "preview_url":
-              '"https"://files.cdn.printful.com/files/c3b/c3b6a4e7df90244e60179d0bb5fabf17_preview.png',
+              'https://files.cdn.printful.com/files/c3b/c3b6a4e7df90244e60179d0bb5fabf17_preview.png',
             "visible": False,
           },
         ],
@@ -354,7 +354,7 @@ products = [
       "variants": 10,
       "synced": 10,
       "thumbnail_url":
-        '"https"://files.cdn.printful.com/files/e0a/e0a8aef223ab8069bffe4c74a7579452_preview.png',
+        'https://files.cdn.printful.com/files/e0a/e0a8aef223ab8069bffe4c74a7579452_preview.png',
       "is_ignored": False,
     },
     "sync_variants": [
@@ -373,7 +373,7 @@ products = [
           "variant_id": 6239,
           "product_id": 1,
           "image":
-            '"https"://files.cdn.printful.com/products/1/6239_1527678729.jpg',
+            'https://files.cdn.printful.com/products/1/6239_1527678729.jpg',
           "name": 'Enhanced Matte Paper Poster 10×10',
         },
         "files": [
@@ -381,7 +381,7 @@ products = [
             "id": 349259015,
             "type": 'default',
             "hash": '583a24fa87dd65c3efdc1defd475285e',
-            "url": '"https"://www.googleapis.com/drive/v2/files/1IIvwQokXVKSPmGWij6IC4aPHxIlmsSt3?alt=media',
+            "url": 'https://www.googleapis.com/drive/v2/files/1IIvwQokXVKSPmGWij6IC4aPHxIlmsSt3?alt=media',
             "filename": 'CN-Tower.jpg',
             "mime_type": 'image/jpeg',
             "size": 6605874,
@@ -391,9 +391,9 @@ products = [
             "status": 'ok',
             "created": 1629031009,
             "thumbnail_url":
-              '"https"://files.cdn.printful.com/files/583/583a24fa87dd65c3efdc1defd475285e_thumb.png',
+              'https://files.cdn.printful.com/files/583/583a24fa87dd65c3efdc1defd475285e_thumb.png',
             "preview_url":
-              '"https"://files.cdn.printful.com/files/583/583a24fa87dd65c3efdc1defd475285e_preview.png',
+              'https://files.cdn.printful.com/files/583/583a24fa87dd65c3efdc1defd475285e_preview.png',
             "visible": True,
           },
           {
@@ -411,9 +411,9 @@ products = [
             "status": 'ok',
             "created": 1629031268,
             "thumbnail_url":
-              '"https"://files.cdn.printful.com/files/e0a/e0a8aef223ab8069bffe4c74a7579452_thumb.png',
+              'https://files.cdn.printful.com/files/e0a/e0a8aef223ab8069bffe4c74a7579452_thumb.png',
             "preview_url":
-              '"https"://files.cdn.printful.com/files/e0a/e0a8aef223ab8069bffe4c74a7579452_preview.png',
+              'https://files.cdn.printful.com/files/e0a/e0a8aef223ab8069bffe4c74a7579452_preview.png',
             "visible": False,
           },
         ],
@@ -435,7 +435,7 @@ products = [
           "variant_id": 4464,
           "product_id": 1,
           "image":
-            '"https"://files.cdn.printful.com/products/1/4464_1527678770.jpg',
+            'https://files.cdn.printful.com/products/1/4464_1527678770.jpg',
           "name": 'Enhanced Matte Paper Poster 12×12',
         },
         "files": [
@@ -443,7 +443,7 @@ products = [
             "id": 349259015,
             "type": 'default',
             "hash": '583a24fa87dd65c3efdc1defd475285e',
-            "url": '"https"://www.googleapis.com/drive/v2/files/1IIvwQokXVKSPmGWij6IC4aPHxIlmsSt3?alt=media',
+            "url": 'https://www.googleapis.com/drive/v2/files/1IIvwQokXVKSPmGWij6IC4aPHxIlmsSt3?alt=media',
             "filename": 'CN-Tower.jpg',
             "mime_type": 'image/jpeg',
             "size": 6605874,
@@ -453,9 +453,9 @@ products = [
             "status": 'ok',
             "created": 1629031009,
             "thumbnail_url":
-              '"https"://files.cdn.printful.com/files/583/583a24fa87dd65c3efdc1defd475285e_thumb.png',
+              'https://files.cdn.printful.com/files/583/583a24fa87dd65c3efdc1defd475285e_thumb.png',
             "preview_url":
-              '"https"://files.cdn.printful.com/files/583/583a24fa87dd65c3efdc1defd475285e_preview.png',
+              'https://files.cdn.printful.com/files/583/583a24fa87dd65c3efdc1defd475285e_preview.png',
             "visible": True,
           },
           {
@@ -473,9 +473,9 @@ products = [
             "status": 'ok',
             "created": 1629031268,
             "thumbnail_url":
-              '"https"://files.cdn.printful.com/files/616/616d7b46f6a43925faf16e12052e4979_thumb.png',
+              'https://files.cdn.printful.com/files/616/616d7b46f6a43925faf16e12052e4979_thumb.png',
             "preview_url":
-              '"https"://files.cdn.printful.com/files/616/616d7b46f6a43925faf16e12052e4979_preview.png',
+              'https://files.cdn.printful.com/files/616/616d7b46f6a43925faf16e12052e4979_preview.png',
             "visible": False,
           },
         ],
@@ -497,7 +497,7 @@ products = [
           "variant_id": 1349,
           "product_id": 1,
           "image":
-            '"https"://files.cdn.printful.com/products/1/1349_1527679043.jpg',
+            'https://files.cdn.printful.com/products/1/1349_1527679043.jpg',
           "name": 'Enhanced Matte Paper Poster 12×16',
         },
         "files": [
@@ -505,7 +505,7 @@ products = [
             "id": 349259015,
             "type": 'default',
             "hash": '583a24fa87dd65c3efdc1defd475285e',
-            "url": '"https"://www.googleapis.com/drive/v2/files/1IIvwQokXVKSPmGWij6IC4aPHxIlmsSt3?alt=media',
+            "url": 'https://www.googleapis.com/drive/v2/files/1IIvwQokXVKSPmGWij6IC4aPHxIlmsSt3?alt=media',
             "filename": 'CN-Tower.jpg',
             "mime_type": 'image/jpeg',
             "size": 6605874,
@@ -515,9 +515,9 @@ products = [
             "status": 'ok',
             "created": 1629031009,
             "thumbnail_url":
-              '"https"://files.cdn.printful.com/files/583/583a24fa87dd65c3efdc1defd475285e_thumb.png',
+              'https://files.cdn.printful.com/files/583/583a24fa87dd65c3efdc1defd475285e_thumb.png',
             "preview_url":
-              '"https"://files.cdn.printful.com/files/583/583a24fa87dd65c3efdc1defd475285e_preview.png',
+              'https://files.cdn.printful.com/files/583/583a24fa87dd65c3efdc1defd475285e_preview.png',
             "visible": True,
           },
           {
@@ -535,9 +535,9 @@ products = [
             "status": 'ok',
             "created": 1629031268,
             "thumbnail_url":
-              '"https"://files.cdn.printful.com/files/a2e/a2e4b7c0c266b3aaf4ffc41259d22106_thumb.png',
+              'https://files.cdn.printful.com/files/a2e/a2e4b7c0c266b3aaf4ffc41259d22106_thumb.png',
             "preview_url":
-              '"https"://files.cdn.printful.com/files/a2e/a2e4b7c0c266b3aaf4ffc41259d22106_preview.png',
+              'https://files.cdn.printful.com/files/a2e/a2e4b7c0c266b3aaf4ffc41259d22106_preview.png',
             "visible": False,
           },
         ],
@@ -559,7 +559,7 @@ products = [
           "variant_id": 3876,
           "product_id": 1,
           "image":
-            '"https"://files.cdn.printful.com/products/1/3876_1527678813.jpg',
+            'https://files.cdn.printful.com/products/1/3876_1527678813.jpg',
           "name": 'Enhanced Matte Paper Poster 12×18',
         },
         "files": [
@@ -567,7 +567,7 @@ products = [
             "id": 349259015,
             "type": 'default',
             "hash": '583a24fa87dd65c3efdc1defd475285e',
-            "url": '"https"://www.googleapis.com/drive/v2/files/1IIvwQokXVKSPmGWij6IC4aPHxIlmsSt3?alt=media',
+            "url": 'https://www.googleapis.com/drive/v2/files/1IIvwQokXVKSPmGWij6IC4aPHxIlmsSt3?alt=media',
             "filename": 'CN-Tower.jpg',
             "mime_type": 'image/jpeg',
             "size": 6605874,
@@ -577,9 +577,9 @@ products = [
             "status": 'ok',
             "created": 1629031009,
             "thumbnail_url":
-              '"https"://files.cdn.printful.com/files/583/583a24fa87dd65c3efdc1defd475285e_thumb.png',
+              'https://files.cdn.printful.com/files/583/583a24fa87dd65c3efdc1defd475285e_thumb.png',
             "preview_url":
-              '"https"://files.cdn.printful.com/files/583/583a24fa87dd65c3efdc1defd475285e_preview.png',
+              'https://files.cdn.printful.com/files/583/583a24fa87dd65c3efdc1defd475285e_preview.png',
             "visible": True,
           },
           {
@@ -597,9 +597,9 @@ products = [
             "status": 'ok',
             "created": 1629031268,
             "thumbnail_url":
-              '"https"://files.cdn.printful.com/files/357/357db11aff59d5bcea7d40a6fe6f804f_thumb.png',
+              'https://files.cdn.printful.com/files/357/357db11aff59d5bcea7d40a6fe6f804f_thumb.png',
             "preview_url":
-              '"https"://files.cdn.printful.com/files/357/357db11aff59d5bcea7d40a6fe6f804f_preview.png',
+              'https://files.cdn.printful.com/files/357/357db11aff59d5bcea7d40a6fe6f804f_preview.png',
             "visible": False,
           },
         ],
@@ -621,7 +621,7 @@ products = [
           "variant_id": 6240,
           "product_id": 1,
           "image":
-            '"https"://files.cdn.printful.com/products/1/6240_1527678837.jpg',
+            'https://files.cdn.printful.com/products/1/6240_1527678837.jpg',
           "name": 'Enhanced Matte Paper Poster 14×14',
         },
         "files": [
@@ -629,7 +629,7 @@ products = [
             "id": 349259015,
             "type": 'default',
             "hash": '583a24fa87dd65c3efdc1defd475285e',
-            "url": '"https"://www.googleapis.com/drive/v2/files/1IIvwQokXVKSPmGWij6IC4aPHxIlmsSt3?alt=media',
+            "url": 'https://www.googleapis.com/drive/v2/files/1IIvwQokXVKSPmGWij6IC4aPHxIlmsSt3?alt=media',
             "filename": 'CN-Tower.jpg',
             "mime_type": 'image/jpeg',
             "size": 6605874,
@@ -639,9 +639,9 @@ products = [
             "status": 'ok',
             "created": 1629031009,
             "thumbnail_url":
-              '"https"://files.cdn.printful.com/files/583/583a24fa87dd65c3efdc1defd475285e_thumb.png',
+              'https://files.cdn.printful.com/files/583/583a24fa87dd65c3efdc1defd475285e_thumb.png',
             "preview_url":
-              '"https"://files.cdn.printful.com/files/583/583a24fa87dd65c3efdc1defd475285e_preview.png',
+              'https://files.cdn.printful.com/files/583/583a24fa87dd65c3efdc1defd475285e_preview.png',
             "visible": True,
           },
           {
@@ -659,9 +659,9 @@ products = [
             "status": 'ok',
             "created": 1629031268,
             "thumbnail_url":
-              '"https"://files.cdn.printful.com/files/2c8/2c8a73d44de2583776e2c6b24d18ae03_thumb.png',
+              'https://files.cdn.printful.com/files/2c8/2c8a73d44de2583776e2c6b24d18ae03_thumb.png',
             "preview_url":
-              '"https"://files.cdn.printful.com/files/2c8/2c8a73d44de2583776e2c6b24d18ae03_preview.png',
+              'https://files.cdn.printful.com/files/2c8/2c8a73d44de2583776e2c6b24d18ae03_preview.png',
             "visible": False,
           },
         ],
@@ -683,7 +683,7 @@ products = [
           "variant_id": 4465,
           "product_id": 1,
           "image":
-            '"https"://files.cdn.printful.com/products/1/4465_1527678875.jpg',
+            'https://files.cdn.printful.com/products/1/4465_1527678875.jpg',
           "name": 'Enhanced Matte Paper Poster 16×16',
         },
         "files": [
@@ -691,7 +691,7 @@ products = [
             "id": 349259015,
             "type": 'default',
             "hash": '583a24fa87dd65c3efdc1defd475285e',
-            "url": '"https"://www.googleapis.com/drive/v2/files/1IIvwQokXVKSPmGWij6IC4aPHxIlmsSt3?alt=media',
+            "url": 'https://www.googleapis.com/drive/v2/files/1IIvwQokXVKSPmGWij6IC4aPHxIlmsSt3?alt=media',
             "filename": 'CN-Tower.jpg',
             "mime_type": 'image/jpeg',
             "size": 6605874,
@@ -701,9 +701,9 @@ products = [
             "status": 'ok',
             "created": 1629031009,
             "thumbnail_url":
-              '"https"://files.cdn.printful.com/files/583/583a24fa87dd65c3efdc1defd475285e_thumb.png',
+              'https://files.cdn.printful.com/files/583/583a24fa87dd65c3efdc1defd475285e_thumb.png',
             "preview_url":
-              '"https"://files.cdn.printful.com/files/583/583a24fa87dd65c3efdc1defd475285e_preview.png',
+              'https://files.cdn.printful.com/files/583/583a24fa87dd65c3efdc1defd475285e_preview.png',
             "visible": True,
           },
           {
@@ -721,9 +721,9 @@ products = [
             "status": 'ok',
             "created": 1629031268,
             "thumbnail_url":
-              '"https"://files.cdn.printful.com/files/2ea/2eac00409f26859a0b4ec3c91015e3c6_thumb.png',
+              'https://files.cdn.printful.com/files/2ea/2eac00409f26859a0b4ec3c91015e3c6_thumb.png',
             "preview_url":
-              '"https"://files.cdn.printful.com/files/2ea/2eac00409f26859a0b4ec3c91015e3c6_preview.png',
+              'https://files.cdn.printful.com/files/2ea/2eac00409f26859a0b4ec3c91015e3c6_preview.png',
             "visible": False,
           },
         ],
@@ -745,7 +745,7 @@ products = [
           "variant_id": 3877,
           "product_id": 1,
           "image":
-            '"https"://files.cdn.printful.com/products/1/3877_1527678896.jpg',
+            'https://files.cdn.printful.com/products/1/3877_1527678896.jpg',
           "name": 'Enhanced Matte Paper Poster 16×20',
         },
         "files": [
@@ -753,7 +753,7 @@ products = [
             "id": 349259015,
             "type": 'default',
             "hash": '583a24fa87dd65c3efdc1defd475285e',
-            "url": '"https"://www.googleapis.com/drive/v2/files/1IIvwQokXVKSPmGWij6IC4aPHxIlmsSt3?alt=media',
+            "url": 'https://www.googleapis.com/drive/v2/files/1IIvwQokXVKSPmGWij6IC4aPHxIlmsSt3?alt=media',
             "filename": 'CN-Tower.jpg',
             "mime_type": 'image/jpeg',
             "size": 6605874,
@@ -763,9 +763,9 @@ products = [
             "status": 'ok',
             "created": 1629031009,
             "thumbnail_url":
-              '"https"://files.cdn.printful.com/files/583/583a24fa87dd65c3efdc1defd475285e_thumb.png',
+              'https://files.cdn.printful.com/files/583/583a24fa87dd65c3efdc1defd475285e_thumb.png',
             "preview_url":
-              '"https"://files.cdn.printful.com/files/583/583a24fa87dd65c3efdc1defd475285e_preview.png',
+              'https://files.cdn.printful.com/files/583/583a24fa87dd65c3efdc1defd475285e_preview.png',
             "visible": True,
           },
           {
@@ -783,9 +783,9 @@ products = [
             "status": 'ok',
             "created": 1629031268,
             "thumbnail_url":
-              '"https"://files.cdn.printful.com/files/239/239764036be9bac714cb7c8a6fa7f4ff_thumb.png',
+              'https://files.cdn.printful.com/files/239/239764036be9bac714cb7c8a6fa7f4ff_thumb.png',
             "preview_url":
-              '"https"://files.cdn.printful.com/files/239/239764036be9bac714cb7c8a6fa7f4ff_preview.png',
+              'https://files.cdn.printful.com/files/239/239764036be9bac714cb7c8a6fa7f4ff_preview.png',
             "visible": False,
           },
         ],
@@ -807,7 +807,7 @@ products = [
           "variant_id": 6242,
           "product_id": 1,
           "image":
-            '"https"://files.cdn.printful.com/products/1/6242_1527678943.jpg',
+            'https://files.cdn.printful.com/products/1/6242_1527678943.jpg',
           "name": 'Enhanced Matte Paper Poster 18×18',
         },
         "files": [
@@ -815,7 +815,7 @@ products = [
             "id": 349259015,
             "type": 'default',
             "hash": '583a24fa87dd65c3efdc1defd475285e',
-            "url": '"https"://www.googleapis.com/drive/v2/files/1IIvwQokXVKSPmGWij6IC4aPHxIlmsSt3?alt=media',
+            "url": 'https://www.googleapis.com/drive/v2/files/1IIvwQokXVKSPmGWij6IC4aPHxIlmsSt3?alt=media',
             "filename": 'CN-Tower.jpg',
             "mime_type": 'image/jpeg',
             "size": 6605874,
@@ -825,9 +825,9 @@ products = [
             "status": 'ok',
             "created": 1629031009,
             "thumbnail_url":
-              '"https"://files.cdn.printful.com/files/583/583a24fa87dd65c3efdc1defd475285e_thumb.png',
+              'https://files.cdn.printful.com/files/583/583a24fa87dd65c3efdc1defd475285e_thumb.png',
             "preview_url":
-              '"https"://files.cdn.printful.com/files/583/583a24fa87dd65c3efdc1defd475285e_preview.png',
+              'https://files.cdn.printful.com/files/583/583a24fa87dd65c3efdc1defd475285e_preview.png',
             "visible": True,
           },
           {
@@ -845,9 +845,9 @@ products = [
             "status": 'ok',
             "created": 1629031268,
             "thumbnail_url":
-              '"https"://files.cdn.printful.com/files/5e3/5e39b4cdc04daec968f2f10d42aa1a73_thumb.png',
+              'https://files.cdn.printful.com/files/5e3/5e39b4cdc04daec968f2f10d42aa1a73_thumb.png',
             "preview_url":
-              '"https"://files.cdn.printful.com/files/5e3/5e39b4cdc04daec968f2f10d42aa1a73_preview.png',
+              'https://files.cdn.printful.com/files/5e3/5e39b4cdc04daec968f2f10d42aa1a73_preview.png',
             "visible": False,
           },
         ],
@@ -868,7 +868,7 @@ products = [
         "product": {
           "variant_id": 1,
           "product_id": 1,
-          "image": '"https"://files.cdn.printful.com/products/1/1_1527683474.jpg',
+          "image": 'https://files.cdn.printful.com/products/1/1_1527683474.jpg',
           "name": 'Enhanced Matte Paper Poster 18×24',
         },
         "files": [
@@ -876,7 +876,7 @@ products = [
             "id": 349259015,
             "type": 'default',
             "hash": '583a24fa87dd65c3efdc1defd475285e',
-            "url": '"https"://www.googleapis.com/drive/v2/files/1IIvwQokXVKSPmGWij6IC4aPHxIlmsSt3?alt=media',
+            "url": 'https://www.googleapis.com/drive/v2/files/1IIvwQokXVKSPmGWij6IC4aPHxIlmsSt3?alt=media',
             "filename": 'CN-Tower.jpg',
             "mime_type": 'image/jpeg',
             "size": 6605874,
@@ -886,9 +886,9 @@ products = [
             "status": 'ok',
             "created": 1629031009,
             "thumbnail_url":
-              '"https"://files.cdn.printful.com/files/583/583a24fa87dd65c3efdc1defd475285e_thumb.png',
+              'https://files.cdn.printful.com/files/583/583a24fa87dd65c3efdc1defd475285e_thumb.png',
             "preview_url":
-              '"https"://files.cdn.printful.com/files/583/583a24fa87dd65c3efdc1defd475285e_preview.png',
+              'https://files.cdn.printful.com/files/583/583a24fa87dd65c3efdc1defd475285e_preview.png',
             "visible": True,
           },
           {
@@ -906,9 +906,9 @@ products = [
             "status": 'ok',
             "created": 1629031268,
             "thumbnail_url":
-              '"https"://files.cdn.printful.com/files/bb0/bb071efac72a494ba4abe2c4c27ae0ae_thumb.png',
+              'https://files.cdn.printful.com/files/bb0/bb071efac72a494ba4abe2c4c27ae0ae_thumb.png',
             "preview_url":
-              '"https"://files.cdn.printful.com/files/bb0/bb071efac72a494ba4abe2c4c27ae0ae_preview.png',
+              'https://files.cdn.printful.com/files/bb0/bb071efac72a494ba4abe2c4c27ae0ae_preview.png',
             "visible": False,
           },
         ],
@@ -930,7 +930,7 @@ products = [
           "variant_id": 4463,
           "product_id": 1,
           "image":
-            '"https"://files.cdn.printful.com/products/1/4463_1527678642.jpg',
+            'https://files.cdn.printful.com/products/1/4463_1527678642.jpg',
           "name": 'Enhanced Matte Paper Poster 8×10',
         },
         "files": [
@@ -938,7 +938,7 @@ products = [
             "id": 349259015,
             "type": 'default',
             "hash": '583a24fa87dd65c3efdc1defd475285e',
-            "url": '"https"://www.googleapis.com/drive/v2/files/1IIvwQokXVKSPmGWij6IC4aPHxIlmsSt3?alt=media',
+            "url": 'https://www.googleapis.com/drive/v2/files/1IIvwQokXVKSPmGWij6IC4aPHxIlmsSt3?alt=media',
             "filename": 'CN-Tower.jpg',
             "mime_type": 'image/jpeg',
             "size": 6605874,
@@ -948,9 +948,9 @@ products = [
             "status": 'ok',
             "created": 1629031009,
             "thumbnail_url":
-              '"https"://files.cdn.printful.com/files/583/583a24fa87dd65c3efdc1defd475285e_thumb.png',
+              'https://files.cdn.printful.com/files/583/583a24fa87dd65c3efdc1defd475285e_thumb.png',
             "preview_url":
-              '"https"://files.cdn.printful.com/files/583/583a24fa87dd65c3efdc1defd475285e_preview.png',
+              'https://files.cdn.printful.com/files/583/583a24fa87dd65c3efdc1defd475285e_preview.png',
             "visible": True,
           },
           {
@@ -968,9 +968,9 @@ products = [
             "status": 'ok',
             "created": 1629031268,
             "thumbnail_url":
-              '"https"://files.cdn.printful.com/files/815/8159aeeef03202ff34a774a614f45154_thumb.png',
+              'https://files.cdn.printful.com/files/815/8159aeeef03202ff34a774a614f45154_thumb.png',
             "preview_url":
-              '"https"://files.cdn.printful.com/files/815/8159aeeef03202ff34a774a614f45154_preview.png',
+              'https://files.cdn.printful.com/files/815/8159aeeef03202ff34a774a614f45154_preview.png',
             "visible": False,
           },
         ],
@@ -987,7 +987,7 @@ products = [
       "variants": 1,
       "synced": 1,
       "thumbnail_url":
-        '"https"://files.cdn.printful.com/files/1aa/1aa2488c2445838076cbd3ea345c2e38_preview.png',
+        'https://files.cdn.printful.com/files/1aa/1aa2488c2445838076cbd3ea345c2e38_preview.png',
       "is_ignored": False,
     },
     "sync_variants": [
@@ -1006,7 +1006,7 @@ products = [
           "variant_id": 12141,
           "product_id": 474,
           "image":
-            '"https"://files.cdn.printful.com/products/474/12141_1615981989.jpg',
+            'https://files.cdn.printful.com/products/474/12141_1615981989.jpg',
           "name": 'Spiral Notebook (5.5"x8.5")',
         },
         "files": [
@@ -1014,7 +1014,7 @@ products = [
             "id": 349258154,
             "type": 'default',
             "hash": '80943a559a930488e0dda70d62b74241',
-            "url": '"https"://www.googleapis.com/drive/v2/files/10FzpYZ7N9QEH43jiq90bfFGlKM7OZMra?alt=media',
+            "url": 'https://www.googleapis.com/drive/v2/files/10FzpYZ7N9QEH43jiq90bfFGlKM7OZMra?alt=media',
             "filename": 'I-Love-Life.jpg',
             "mime_type": 'image/jpeg',
             "size": 14145046,
@@ -1024,9 +1024,9 @@ products = [
             "status": 'ok',
             "created": 1629030593,
             "thumbnail_url":
-              '"https"://files.cdn.printful.com/files/809/80943a559a930488e0dda70d62b74241_thumb.png',
+              'https://files.cdn.printful.com/files/809/80943a559a930488e0dda70d62b74241_thumb.png',
             "preview_url":
-              '"https"://files.cdn.printful.com/files/809/80943a559a930488e0dda70d62b74241_preview.png',
+              'https://files.cdn.printful.com/files/809/80943a559a930488e0dda70d62b74241_preview.png',
             "visible": True,
           },
           {
@@ -1043,9 +1043,9 @@ products = [
             "status": 'ok',
             "created": 1629030649,
             "thumbnail_url":
-              '"https"://files.cdn.printful.com/files/1aa/1aa2488c2445838076cbd3ea345c2e38_thumb.png',
+              'https://files.cdn.printful.com/files/1aa/1aa2488c2445838076cbd3ea345c2e38_thumb.png',
             "preview_url":
-              '"https"://files.cdn.printful.com/files/1aa/1aa2488c2445838076cbd3ea345c2e38_preview.png',
+              'https://files.cdn.printful.com/files/1aa/1aa2488c2445838076cbd3ea345c2e38_preview.png',
             "visible": False,
           },
         ],
@@ -1062,7 +1062,7 @@ products = [
       "variants": 1,
       "synced": 1,
       "thumbnail_url":
-        '"https"://files.cdn.printful.com/files/011/0115f988586ce9612e3f1295f160366f_preview.png',
+        'https://files.cdn.printful.com/files/011/0115f988586ce9612e3f1295f160366f_preview.png',
       "is_ignored": False,
     },
     "sync_variants": [
@@ -1081,7 +1081,7 @@ products = [
           "variant_id": 10986,
           "product_id": 395,
           "image":
-            '"https"://files.cdn.printful.com/products/395/10986_1568319082.jpg',
+            'https://files.cdn.printful.com/products/395/10986_1568319082.jpg',
           "name": 'Throw blanket 50×60',
         },
         "files": [
@@ -1089,7 +1089,7 @@ products = [
             "id": 349154856,
             "type": 'default',
             "hash": 'f51cdd2b1eac9f4574706b833437ec50',
-            "url": '"https"://www.googleapis.com/drive/v2/files/1VE4aev-Wf0q0TWxaM_Xm2RqOXibiHkcz?alt=media',
+            "url": 'https://www.googleapis.com/drive/v2/files/1VE4aev-Wf0q0TWxaM_Xm2RqOXibiHkcz?alt=media',
             "filename": 'merrygoround.jpg',
             "mime_type": 'image/jpeg',
             "size": 10773757,
@@ -1099,9 +1099,9 @@ products = [
             "status": 'ok',
             "created": 1628986353,
             "thumbnail_url":
-              '"https"://files.cdn.printful.com/files/f51/f51cdd2b1eac9f4574706b833437ec50_thumb.png',
+              'https://files.cdn.printful.com/files/f51/f51cdd2b1eac9f4574706b833437ec50_thumb.png',
             "preview_url":
-              '"https"://files.cdn.printful.com/files/f51/f51cdd2b1eac9f4574706b833437ec50_preview.png',
+              'https://files.cdn.printful.com/files/f51/f51cdd2b1eac9f4574706b833437ec50_preview.png',
             "visible": True,
           },
           {
@@ -1118,9 +1118,9 @@ products = [
             "status": 'ok',
             "created": 1628986689,
             "thumbnail_url":
-              '"https"://files.cdn.printful.com/files/011/0115f988586ce9612e3f1295f160366f_thumb.png',
+              'https://files.cdn.printful.com/files/011/0115f988586ce9612e3f1295f160366f_thumb.png',
             "preview_url":
-              '"https"://files.cdn.printful.com/files/011/0115f988586ce9612e3f1295f160366f_preview.png',
+              'https://files.cdn.printful.com/files/011/0115f988586ce9612e3f1295f160366f_preview.png',
             "visible": False,
           },
         ],
@@ -1137,7 +1137,7 @@ products = [
       "variants": 2,
       "synced": 2,
       "thumbnail_url":
-        '"https"://files.cdn.printful.com/files/4b4/4b4b173e59360c6e65dcc6cd6350ff97_preview.png',
+        'https://files.cdn.printful.com/files/4b4/4b4b173e59360c6e65dcc6cd6350ff97_preview.png',
       "is_ignored": False,
     },
     "sync_variants": [
@@ -1155,7 +1155,7 @@ products = [
         "product": {
           "variant_id": 823,
           "product_id": 3,
-          "image": '"https"://files.cdn.printful.com/products/3/823_1581583554.jpg',
+          "image": 'https://files.cdn.printful.com/products/3/823_1581583554.jpg',
           "name": 'Canvas 12×12',
         },
         "files": [
@@ -1163,7 +1163,7 @@ products = [
             "id": 349156798,
             "type": 'default',
             "hash": '53ea1ad3fea773ed8345595fea7ed334',
-            "url": '"https"://www.googleapis.com/drive/v2/files/13EKEZk6e-VMa2H-uxnCVbWlqEOLvLxuM?alt=media',
+            "url": 'https://www.googleapis.com/drive/v2/files/13EKEZk6e-VMa2H-uxnCVbWlqEOLvLxuM?alt=media',
             "filename": 'downtown.jpg',
             "mime_type": 'image/jpeg',
             "size": 11038996,
@@ -1173,9 +1173,9 @@ products = [
             "status": 'ok',
             "created": 1628986952,
             "thumbnail_url":
-              '"https"://files.cdn.printful.com/files/53e/53ea1ad3fea773ed8345595fea7ed334_thumb.png',
+              'https://files.cdn.printful.com/files/53e/53ea1ad3fea773ed8345595fea7ed334_thumb.png',
             "preview_url":
-              '"https"://files.cdn.printful.com/files/53e/53ea1ad3fea773ed8345595fea7ed334_preview.png',
+              'https://files.cdn.printful.com/files/53e/53ea1ad3fea773ed8345595fea7ed334_preview.png',
             "visible": True,
           },
           {
@@ -1192,9 +1192,9 @@ products = [
             "status": 'ok',
             "created": 1628987435,
             "thumbnail_url":
-              '"https"://files.cdn.printful.com/files/4b4/4b4b173e59360c6e65dcc6cd6350ff97_thumb.png',
+              'https://files.cdn.printful.com/files/4b4/4b4b173e59360c6e65dcc6cd6350ff97_thumb.png',
             "preview_url":
-              '"https"://files.cdn.printful.com/files/4b4/4b4b173e59360c6e65dcc6cd6350ff97_preview.png',
+              'https://files.cdn.printful.com/files/4b4/4b4b173e59360c6e65dcc6cd6350ff97_preview.png',
             "visible": False,
           },
         ],
@@ -1215,7 +1215,7 @@ products = [
         "product": {
           "variant_id": 824,
           "product_id": 3,
-          "image": '"https"://files.cdn.printful.com/products/3/824_1581583604.jpg',
+          "image": 'https://files.cdn.printful.com/products/3/824_1581583604.jpg',
           "name": 'Canvas 16×16',
         },
         "files": [
@@ -1223,7 +1223,7 @@ products = [
             "id": 349156798,
             "type": 'default',
             "hash": '53ea1ad3fea773ed8345595fea7ed334',
-            "url": '"https"://www.googleapis.com/drive/v2/files/13EKEZk6e-VMa2H-uxnCVbWlqEOLvLxuM?alt=media',
+            "url": 'https://www.googleapis.com/drive/v2/files/13EKEZk6e-VMa2H-uxnCVbWlqEOLvLxuM?alt=media',
             "filename": 'downtown.jpg',
             "mime_type": 'image/jpeg',
             "size": 11038996,
@@ -1233,9 +1233,9 @@ products = [
             "status": 'ok',
             "created": 1628986952,
             "thumbnail_url":
-              '"https"://files.cdn.printful.com/files/53e/53ea1ad3fea773ed8345595fea7ed334_thumb.png',
+              'https://files.cdn.printful.com/files/53e/53ea1ad3fea773ed8345595fea7ed334_thumb.png',
             "preview_url":
-              '"https"://files.cdn.printful.com/files/53e/53ea1ad3fea773ed8345595fea7ed334_preview.png',
+              'https://files.cdn.printful.com/files/53e/53ea1ad3fea773ed8345595fea7ed334_preview.png',
             "visible": True,
           },
           {
@@ -1252,9 +1252,9 @@ products = [
             "status": 'ok',
             "created": 1628987435,
             "thumbnail_url":
-              '"https"://files.cdn.printful.com/files/8f6/8f6184257348189ff2d4dbe289f8a04b_thumb.png',
+              'https://files.cdn.printful.com/files/8f6/8f6184257348189ff2d4dbe289f8a04b_thumb.png',
             "preview_url":
-              '"https"://files.cdn.printful.com/files/8f6/8f6184257348189ff2d4dbe289f8a04b_preview.png',
+              'https://files.cdn.printful.com/files/8f6/8f6184257348189ff2d4dbe289f8a04b_preview.png',
             "visible": False,
           },
         ],
@@ -1271,7 +1271,7 @@ products = [
       "variants": 2,
       "synced": 2,
       "thumbnail_url":
-        '"https"://files.cdn.printful.com/files/09e/09e46a68634bc3b9139a4de9dee9caf6_preview.png',
+        'https://files.cdn.printful.com/files/09e/09e46a68634bc3b9139a4de9dee9caf6_preview.png',
       "is_ignored": False,
     },
     "sync_variants": [
@@ -1290,7 +1290,7 @@ products = [
           "variant_id": 10163,
           "product_id": 358,
           "image":
-            '"https"://files.cdn.printful.com/products/358/10163_1553083889.jpg',
+            'https://files.cdn.printful.com/products/358/10163_1553083889.jpg',
           "name": 'Kiss Cut Stickers (3x3in)',
         },
         "files": [
@@ -1298,7 +1298,7 @@ products = [
             "id": 349151097,
             "type": 'default',
             "hash": 'd938e14de84ad16dd83c36a545bd2b20',
-            "url": '"https"://www.googleapis.com/drive/v2/files/1EdpQAA7XYbiFz7jpy2J4d5BqQxFoul1p?alt=media',
+            "url": 'https://www.googleapis.com/drive/v2/files/1EdpQAA7XYbiFz7jpy2J4d5BqQxFoul1p?alt=media',
             "filename": 'watermelon-man.jpg',
             "mime_type": 'image/jpeg',
             "size": 978597,
@@ -1308,9 +1308,9 @@ products = [
             "status": 'ok',
             "created": 1628985251,
             "thumbnail_url":
-              '"https"://files.cdn.printful.com/files/d93/d938e14de84ad16dd83c36a545bd2b20_thumb.png',
+              'https://files.cdn.printful.com/files/d93/d938e14de84ad16dd83c36a545bd2b20_thumb.png',
             "preview_url":
-              '"https"://files.cdn.printful.com/files/d93/d938e14de84ad16dd83c36a545bd2b20_preview.png',
+              'https://files.cdn.printful.com/files/d93/d938e14de84ad16dd83c36a545bd2b20_preview.png',
             "visible": True,
           },
           {
@@ -1327,9 +1327,9 @@ products = [
             "status": 'ok',
             "created": 1628985505,
             "thumbnail_url":
-              '"https"://files.cdn.printful.com/files/09e/09e46a68634bc3b9139a4de9dee9caf6_thumb.png',
+              'https://files.cdn.printful.com/files/09e/09e46a68634bc3b9139a4de9dee9caf6_thumb.png',
             "preview_url":
-              '"https"://files.cdn.printful.com/files/09e/09e46a68634bc3b9139a4de9dee9caf6_preview.png',
+              'https://files.cdn.printful.com/files/09e/09e46a68634bc3b9139a4de9dee9caf6_preview.png',
             "visible": False,
           },
         ],
@@ -1351,7 +1351,7 @@ products = [
           "variant_id": 10164,
           "product_id": 358,
           "image":
-            '"https"://files.cdn.printful.com/products/358/10164_1553083894.jpg',
+            'https://files.cdn.printful.com/products/358/10164_1553083894.jpg',
           "name": 'Kiss Cut Stickers (4x4in)',
         },
         "files": [
@@ -1359,7 +1359,7 @@ products = [
             "id": 349151097,
             "type": 'default',
             "hash": 'd938e14de84ad16dd83c36a545bd2b20',
-            "url": '"https"://www.googleapis.com/drive/v2/files/1EdpQAA7XYbiFz7jpy2J4d5BqQxFoul1p?alt=media',
+            "url": 'https://www.googleapis.com/drive/v2/files/1EdpQAA7XYbiFz7jpy2J4d5BqQxFoul1p?alt=media',
             "filename": 'watermelon-man.jpg',
             "mime_type": 'image/jpeg',
             "size": 978597,
@@ -1369,9 +1369,9 @@ products = [
             "status": 'ok',
             "created": 1628985251,
             "thumbnail_url":
-              '"https"://files.cdn.printful.com/files/d93/d938e14de84ad16dd83c36a545bd2b20_thumb.png',
+              'https://files.cdn.printful.com/files/d93/d938e14de84ad16dd83c36a545bd2b20_thumb.png',
             "preview_url":
-              '"https"://files.cdn.printful.com/files/d93/d938e14de84ad16dd83c36a545bd2b20_preview.png',
+              'https://files.cdn.printful.com/files/d93/d938e14de84ad16dd83c36a545bd2b20_preview.png',
             "visible": True,
           },
           {
@@ -1388,9 +1388,9 @@ products = [
             "status": 'ok',
             "created": 1628985505,
             "thumbnail_url":
-              '"https"://files.cdn.printful.com/files/5ee/5ee17eb5901fdb2c5f7ab5792f7e67d4_thumb.png',
+              'https://files.cdn.printful.com/files/5ee/5ee17eb5901fdb2c5f7ab5792f7e67d4_thumb.png',
             "preview_url":
-              '"https"://files.cdn.printful.com/files/5ee/5ee17eb5901fdb2c5f7ab5792f7e67d4_preview.png',
+              'https://files.cdn.printful.com/files/5ee/5ee17eb5901fdb2c5f7ab5792f7e67d4_preview.png',
             "visible": False,
           },
         ],
@@ -1407,7 +1407,7 @@ products = [
       "variants": 1,
       "synced": 1,
       "thumbnail_url":
-        '"https"://files.cdn.printful.com/files/4f2/4f23ae06517c089f3c26ee7af7942054_preview.png',
+        'https://files.cdn.printful.com/files/4f2/4f23ae06517c089f3c26ee7af7942054_preview.png',
       "is_ignored": False,
     },
     "sync_variants": [
@@ -1426,7 +1426,7 @@ products = [
           "variant_id": 11513,
           "product_id": 433,
           "image":
-            '"https"://files.cdn.printful.com/products/433/11513_1592384192.jpg',
+            'https://files.cdn.printful.com/products/433/11513_1592384192.jpg',
           "name": 'Standard Postcards (4"x6")',
         },
         "files": [
@@ -1444,9 +1444,9 @@ products = [
             "status": 'ok',
             "created": 1628982594,
             "thumbnail_url":
-              '"https"://files.cdn.printful.com/files/b3f/b3f6c32d06dd23d6e64acacf84ece843_thumb.png',
+              'https://files.cdn.printful.com/files/b3f/b3f6c32d06dd23d6e64acacf84ece843_thumb.png',
             "preview_url":
-              '"https"://files.cdn.printful.com/files/b3f/b3f6c32d06dd23d6e64acacf84ece843_preview.png',
+              'https://files.cdn.printful.com/files/b3f/b3f6c32d06dd23d6e64acacf84ece843_preview.png',
             "visible": True,
           },
           {
@@ -1463,9 +1463,9 @@ products = [
             "status": 'ok',
             "created": 1628983377,
             "thumbnail_url":
-              '"https"://files.cdn.printful.com/files/4f2/4f23ae06517c089f3c26ee7af7942054_thumb.png',
+              'https://files.cdn.printful.com/files/4f2/4f23ae06517c089f3c26ee7af7942054_thumb.png',
             "preview_url":
-              '"https"://files.cdn.printful.com/files/4f2/4f23ae06517c089f3c26ee7af7942054_preview.png',
+              'https://files.cdn.printful.com/files/4f2/4f23ae06517c089f3c26ee7af7942054_preview.png',
             "visible": False,
           },
         ],
@@ -1480,7 +1480,7 @@ products = [
           "variants": 1,
           "synced": 1,
           "thumbnail_url":
-            '"https"://files.cdn.printful.com/files/1aa/1aa2488c2445838076cbd3ea345c2e38_preview.png',
+            'https://files.cdn.printful.com/files/1aa/1aa2488c2445838076cbd3ea345c2e38_preview.png',
           "is_ignored": False,
         },
         "sync_variants": [
@@ -1499,7 +1499,7 @@ products = [
               "variant_id": 12141,
               "product_id": 474,
               "image":
-                '"https"://files.cdn.printful.com/products/474/12141_1615981989.jpg',
+                'https://files.cdn.printful.com/products/474/12141_1615981989.jpg',
               "name": 'Spiral Notebook (5.5"x8.5")',
             },
             "files": [
@@ -1507,7 +1507,7 @@ products = [
                 "id": 349258154,
                 "type": 'default',
                 "hash": '80943a559a930488e0dda70d62b74241',
-                "url": '"https"://www.googleapis.com/drive/v2/files/10FzpYZ7N9QEH43jiq90bfFGlKM7OZMra?alt=media',
+                "url": 'https://www.googleapis.com/drive/v2/files/10FzpYZ7N9QEH43jiq90bfFGlKM7OZMra?alt=media',
                 "filename": 'I-Love-Life.jpg',
                 "mime_type": 'image/jpeg',
                 "size": 14145046,
@@ -1517,9 +1517,9 @@ products = [
                 "status": 'ok',
                 "created": 1629030593,
                 "thumbnail_url":
-                  '"https"://files.cdn.printful.com/files/809/80943a559a930488e0dda70d62b74241_thumb.png',
+                  'https://files.cdn.printful.com/files/809/80943a559a930488e0dda70d62b74241_thumb.png',
                 "preview_url":
-                  '"https"://files.cdn.printful.com/files/809/80943a559a930488e0dda70d62b74241_preview.png',
+                  'https://files.cdn.printful.com/files/809/80943a559a930488e0dda70d62b74241_preview.png',
                 "visible": True,
               },
               {
@@ -1536,9 +1536,9 @@ products = [
                 "status": 'ok',
                 "created": 1629030649,
                 "thumbnail_url":
-                  '"https"://files.cdn.printful.com/files/1aa/1aa2488c2445838076cbd3ea345c2e38_thumb.png',
+                  'https://files.cdn.printful.com/files/1aa/1aa2488c2445838076cbd3ea345c2e38_thumb.png',
                 "preview_url":
-                  '"https"://files.cdn.printful.com/files/1aa/1aa2488c2445838076cbd3ea345c2e38_preview.png',
+                  'https://files.cdn.printful.com/files/1aa/1aa2488c2445838076cbd3ea345c2e38_preview.png',
                 "visible": False,
               },
             ],
