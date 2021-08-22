@@ -1,7 +1,6 @@
+from .serializers import ProductSerializer, VariantSerializer
 from .models import Product, Variant
-from django.shortcuts import render
 from django.http import JsonResponse
-from django.forms.models import model_to_dict
 from decouple import config
 import requests
 
@@ -99,11 +98,14 @@ def sync_products(request):
                 image_url=v["files"][1]["preview_url"],
             )
             variant.save()
-            variants.append(model_to_dict(variant))
 
-        product_dict = model_to_dict(product)
-        product_dict["variants"] = variants
+            serialized_variant = VariantSerializer(variant, many=False).data
+            variants.append(serialized_variant)
 
-        products_with_variant.append(product_dict)
+        serialized_product = ProductSerializer(product, many=False).data
+
+        serialized_product["variants"] = variants
+
+        products_with_variant.append(serialized_product)
 
     return Response({"products": products_with_variant})
