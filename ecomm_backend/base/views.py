@@ -1,5 +1,7 @@
 from django.shortcuts import render
 from django.http import JsonResponse
+from decouple import config
+import requests
 
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
@@ -33,6 +35,10 @@ def getRoute(request):
 
 @api_view(['GET'])
 def getProducts(request):
+  response = requests.get('https://api.printful.com/store/products', 
+  headers={'Authorization': config('PRINTFUL_KEY')})
+  
+  products = response.json()["result"]
   return Response(products)
 
 @api_view(['GET'])
