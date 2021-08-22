@@ -36,6 +36,11 @@ python manage.py makemigrations
 python manage.py migrate
 ```
 
+### Accidentally deleted the migrations folder
+
+- [S.O](https://stackoverflow.com/a/60522931)
+- [Working Solution](https://simpleisbetterthancomplex.com/tutorial/2016/07/26/how-to-reset-migrations.html)
+
 ## Reference
 
 - [Your first steps with Django: Set up a Django project](https://realpython.com/django-setup/)
