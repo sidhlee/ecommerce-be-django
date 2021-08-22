@@ -7,8 +7,6 @@ from django.contrib.auth.models import User
 class Product(models.Model):
     product_id = models.PositiveIntegerField()
     name = models.CharField(max_length=200, null=False, blank=False)
-    image_url = models.URLField(max_length=200)
-    likes = likes = models.PositiveIntegerField(default=0)
     created_at = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
