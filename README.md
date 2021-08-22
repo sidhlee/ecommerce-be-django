@@ -36,6 +36,37 @@ python manage.py makemigrations
 python manage.py migrate
 ```
 
+### Python formatting not working
+
+You need to turn off the editor's default formatter which is set to prettier.
+Here's the python related settings.
+
+`settings.json`
+
+```json
+{
+  "python.linting.pylintArgs": [
+    "--load-plugins=pylint_django",
+    "--disable=django-not-configured",
+    "--disabled=missing-module-docstring"
+  ],
+  "python.formatting.provider": "autopep8",
+  "[python]": {
+    "editor.defaultFormatter": null,
+    "editor.tabSize": 4,
+    "editor.formatOnSave": true
+  },
+  "[django-html]": {
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": true,
+      "strings": true
+    },
+    "editor.defaultFormatter": "vscode.html-language-features"
+  }
+}
+```
+
 ### Accidentally deleted the migrations folder
 
 - [S.O](https://stackoverflow.com/a/60522931)
