@@ -25,6 +25,13 @@ Open up Windows Powershell and run the following:
 
 To allow in-browser requests to your Django-app from other origins, you can install [django-cors-headers](https://github.com/adamchainz/django-cors-headers).
 
+## Django Contrib packages
+
+Django's contrib packages include many tools that solve common web-development problems.
+Contrib includes packages like admin, auth, humanize, messages, postgres, and redirects.
+
+- [Documentation](https://docs.djangoproject.com/en/3.2/ref/contrib/)
+
 ## Troubleshoot
 
 ### Rest_Framework: Error: OperationalError at /api/ no such table: django_session
