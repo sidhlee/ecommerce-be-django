@@ -32,6 +32,32 @@ Contrib includes packages like admin, auth, humanize, messages, postgres, and re
 
 - [Documentation](https://docs.djangoproject.com/en/3.2/ref/contrib/)
 
+## Resetting database in Django
+
+Unlike NoSQL database like MongoDB, things can get tangled up pretty quick working with relational database, especially when you make many revisions to your fields.
+You can reset your database in Django with the following steps:
+
+### Reset SQLite3 Database
+
+1. Delete `db.sqlite3` file
+2. Delete all migrations folder
+3. Make migrations by `python manage.py makemigrations`
+4. If the migrations folders are not created for some applications, run the above command with app names as args: `python manage.py makemigrations base`
+
+### Reset the whole Database
+
+```bash
+python manage.py flush
+```
+
+### Reverse all migrations for the 'base' app
+
+```bash
+python manage.py migrate base zero
+```
+
+- [Source](https://www.delftstack.com/howto/django/django-reset-database/)
+
 ## Troubleshoot
 
 ### Rest_Framework: Error: OperationalError at /api/ no such table: django_session

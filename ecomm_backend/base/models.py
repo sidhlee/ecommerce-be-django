@@ -5,22 +5,23 @@ from django.contrib.auth.models import User
 
 
 class Product(models.Model):
-    product_id = models.PositiveIntegerField()
+    id = models.PositiveIntegerField(unique=True, primary_key=True)
     name = models.CharField(max_length=200, null=False, blank=False)
     created_at = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
-        return str(f'{self.product_id}_{self.name}')
+        return str(f'{self.id}_{self.name}')
 
 # Will have foreignField in "many" side
 
 
 class Variant(models.Model):
-    variant_id = models.PositiveIntegerField()
+    id = models.PositiveIntegerField(unique=True, primary_key=True)
     name = models.CharField(max_length=200, null=False, blank=False)
     # When the product gets deleted, delete all its variants
     # https://docs.djangoproject.com/en/3.2/topics/db/examples/many_to_one/
-    product = models.ForeignKey(Product, on_delete=models.CASCADE)
+    product = models.ForeignKey(
+        Product, on_delete=models.CASCADE)
     product_name = models.CharField(max_length=200, null=False, blank=False)
     sku = models.CharField(max_length=50, null=False, blank=False)
     price = models.DecimalField(max_digits=7, decimal_places=2)
@@ -31,7 +32,7 @@ class Variant(models.Model):
     created_at = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
-        return str(f'{self.variant_id}_{self.name}')
+        return str(f'{self.id}_{self.name}')
 
 
 class Order(models.Model):

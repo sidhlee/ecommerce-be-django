@@ -31,11 +31,16 @@ def getRoute(request):
 
 @api_view(['GET'])
 def getProducts(request):
-    response = requests.get('https://api.printful.com/store/products',
-                            headers={'Authorization': config('PRINTFUL_KEY')})
+    # Query all products
+    products = Product.objects.all()
+    serialized_products = ProductSerializer(products, many=True).data
+    # Query related variants and add to product
+    for i in serialized_products:
+        variants = Variant.objects.filter(product=i["id"]).order_by('-likes')
+        serialized_variants = VariantSerializer(variants, many=True).data
+        i["variants"] = serialized_variants
 
-    products = response.json()["result"]
-    return Response(products)
+    return Response(serialized_products)
 
 
 @api_view(['GET'])
@@ -47,18 +52,24 @@ def getProduct(request, pk):
           Parameters:
             pk: primary key
     """
+    # Query the product by product id
+    product = Product.objects.get(id=pk)
+    # Query related variants by product id
+    variants = Variant.objects.filter(product=pk).order_by('-likes')
 
-    product = None
-    for p in products:
-        if p['sync_product']['id'] == pk:
-            product = p
-            break
+    serialized_product = ProductSerializer(product, many=False).data
+    serialized_variants = VariantSerializer(variants, many=True).data
 
-    return Response(product)
+    serialized_product["variants"] = serialized_variants
+
+    return Response(serialized_product)
 
 
 @api_view(['GET'])
 def sync_products(request):
+    """
+    Sync products and variants in the database with the data from the printful api
+    """
     headers = {'Authorization': config('PRINTFUL_KEY')}
     response = requests.get('https://api.printful.com/store/products',
                             headers=headers)
@@ -80,7 +91,7 @@ def sync_products(request):
         sync_variants = pwv["sync_variants"]
 
         product = Product(
-            product_id=sync_product["id"],
+            id=sync_product["id"],
             name=sync_product["name"],
         )
         product.save()
@@ -88,7 +99,7 @@ def sync_products(request):
         variants = []
         for v in sync_variants:
             variant = Variant(
-                variant_id=v["id"],
+                id=v["id"],
                 name=v["name"],
                 product=product,
                 product_name=v["product"]["name"],
