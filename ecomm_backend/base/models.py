@@ -28,6 +28,7 @@ class Variant(models.Model):
     currency = models.CharField(
         max_length=10, null=False, blank=False, default="CAD")
     image_url = models.URLField(max_length=200)
+    thumbnail_url = models.URLField(max_length=200, null=True, blank=True)
     likes = models.PositiveIntegerField(default=0)
     created_at = models.DateTimeField(auto_now_add=True)
 

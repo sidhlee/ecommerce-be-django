@@ -58,6 +58,14 @@ python manage.py migrate base zero
 
 - [Source](https://www.delftstack.com/howto/django/django-reset-database/)
 
+## `null` and `blank` option in the Django model field
+
+- [Documentation](https://docs.djangoproject.com/en/3.2/ref/models/fields/#null)
+- If you set `null=True`, Django will set the empty values as 'NULL'
+- `blank=True` allows you to leave the field blank when you're adding rows through admin forms or custom forms. It is the same as NOT having `required` on the form field.
+- Those two are typically used together.
+  > Avoid using null on string-based fields such as CharField and TextField. If a string-based field has null=True, that means it has two possible values for “no data”: NULL, and the empty string. In most cases, it’s redundant to have two possible values for “no data;” the Django convention is to use the empty string, not NULL. One exception is when a CharField has both unique=True and blank=True set. In this situation, null=True is required to avoid unique constraint violations when saving multiple objects with blank values.
+
 ## Troubleshoot
 
 ### Rest_Framework: Error: OperationalError at /api/ no such table: django_session

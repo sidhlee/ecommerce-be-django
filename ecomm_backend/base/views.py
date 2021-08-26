@@ -65,12 +65,14 @@ def getProduct(request, pk):
 
     return Response(serialized_product)
 
+
 @api_view(['GET'])
 def getVariant(request, pk):
     variant = Variant.objects.get(id=pk)
     serialized_variant = VariantSerializer(variant, many=False).data
 
     return Response(serialized_variant)
+
 
 @api_view(['GET'])
 def sync_products(request):
@@ -114,6 +116,7 @@ def sync_products(request):
                 price=v["retail_price"],
                 currency=v["currency"],
                 image_url=v["files"][1]["preview_url"],
+                thumbnail_url=v["files"][1]["thumbnail_url"]
             )
             variant.save()
 
@@ -127,3 +130,20 @@ def sync_products(request):
         products_with_variant.append(serialized_product)
 
     return Response({"products": products_with_variant})
+
+
+# fetch product list from API
+
+# create & store Product instances in a list
+
+# loop over list and fetch detailed detailed info including variants
+    # Create a new class instances: DetailedProduct - product with all variants as subfield
+    # Append the instances into a list: detailed_products
+
+    # Create Variant instances and append them to a list
+
+
+# If it didn't throw up to this point, clear Products & Variants in db
+# and save the list of Variant and Product into db with Model.objects.bulk_create(list)
+
+# Respond with detailed_products
