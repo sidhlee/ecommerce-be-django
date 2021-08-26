@@ -21,6 +21,7 @@ def getRoute(request):
         '/api/products/top/',
 
         '/api/products/<id>',
+        '/api/variant/<id>',
 
         '/api/products/<update>/<id>/',
     ]
@@ -64,6 +65,12 @@ def getProduct(request, pk):
 
     return Response(serialized_product)
 
+@api_view(['GET'])
+def getVariant(request, pk):
+    variant = Variant.objects.get(id=pk)
+    serialized_variant = VariantSerializer(variant, many=False).data
+
+    return Response(serialized_variant)
 
 @api_view(['GET'])
 def sync_products(request):
