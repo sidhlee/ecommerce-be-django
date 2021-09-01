@@ -4,7 +4,7 @@ from rest_framework.decorators import api_view
 from rest_framework.response import Response
 from rest_framework_simplejwt.views import TokenObtainPairView
 from rest_framework_simplejwt.serializers import TokenObtainPairSerializer
-from .serializers import ProductSerializer, UserSerializer, VariantSerializer
+from .serializers import ProductSerializer, UserSerializer, UserSerializerWithToken, VariantSerializer
 from .models import Product, Variant
 
 
@@ -168,8 +168,10 @@ class MyTokenObtainPairSerializer(TokenObtainPairSerializer):
 
         # include these information in the response so that we don't have to parse token
         # in the frontend to get the user id and make another request to get the user info.
-        data['username'] = self.user.username
-        data['email'] = self.user.email
+        serialized_user_with_token = UserSerializerWithToken(self.user).data
+
+        for k, v in serialized_user_with_token.items():
+            data[k] = v
 
         return data
 
