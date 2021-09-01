@@ -76,18 +76,6 @@ python manage.py migrate base zero
 - Those two are typically used together.
   > Avoid using null on string-based fields such as CharField and TextField. If a string-based field has null=True, that means it has two possible values for “no data”: NULL, and the empty string. In most cases, it’s redundant to have two possible values for “no data;” the Django convention is to use the empty string, not NULL. One exception is when a CharField has both unique=True and blank=True set. In this situation, null=True is required to avoid unique constraint violations when saving multiple objects with blank values.
 
-## Authentication with Simple JWT
-
-From [Django REST framework documentation](https://www.django-rest-framework.org/api-guide/authentication/#json-web-token-authentication)
-
-> Unlike the built-in TokenAuthentication scheme, JWT Authentication doesn't need to use a database to validate a token. A package for JWT authentication is djangorestframework-simplejwt which provides some features as well as a pluggable token blacklist app.
-
-[Simple JWT documentation](https://django-rest-framework-simplejwt.readthedocs.io/en/latest/)
-
-### Changing the encoded value inside JWT
-
-You can customize the "claims" in JWT by creating a subclass for
-
 ## Troubleshoot
 
 ### Rest_Framework: Error: OperationalError at /api/ no such table: django_session

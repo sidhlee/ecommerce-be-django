@@ -4,7 +4,7 @@ from rest_framework.decorators import api_view
 from rest_framework.response import Response
 from rest_framework_simplejwt.views import TokenObtainPairView
 from rest_framework_simplejwt.serializers import TokenObtainPairSerializer
-from .serializers import ProductSerializer, VariantSerializer
+from .serializers import ProductSerializer, UserSerializer, VariantSerializer
 from .models import Product, Variant
 
 
@@ -176,3 +176,14 @@ class MyTokenObtainPairSerializer(TokenObtainPairSerializer):
 
 class MyTokenObtainPairView(TokenObtainPairView):
     serializer_class = MyTokenObtainPairSerializer
+
+
+@api_view(['GET'])
+def getUserProfile(request):
+    # This user object will NOT be the usual user object Django attaches to the request.
+    # Instead, the @api_view decorator will parse the user data from the token and add to request.
+    user = request.user
+
+    serialized_user = UserSerializer(user, many=False).data
+
+    return Response(serialized_user)
