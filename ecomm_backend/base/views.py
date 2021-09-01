@@ -1,11 +1,12 @@
-from .serializers import ProductSerializer, VariantSerializer
-from .models import Product, Variant
-from django.http import JsonResponse
 from decouple import config
 import requests
-
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
+from rest_framework_simplejwt.views import TokenObtainPairView
+from rest_framework_simplejwt.serializers import TokenObtainPairSerializer
+from .serializers import ProductSerializer, VariantSerializer
+from .models import Product, Variant
+
 
 from .products import products
 
@@ -132,6 +133,10 @@ def sync_products(request):
     return Response({"products": products_with_variant})
 
 
+# TODO: re-write syncProducts so that if the synching fails, it leaves the db as it was.
+# Now, it wipes the db before the operation, so we end up with an empty db if it fails.
+
+
 # fetch product list from API
 
 # create & store Product instances in a list
@@ -147,3 +152,27 @@ def sync_products(request):
 # and save the list of Variant and Product into db with Model.objects.bulk_create(list)
 
 # Respond with detailed_products
+
+
+# Customizing JWT token claims
+# by creating a subclass for the view and a subclass for its corresponding serializer.
+# https: // django-rest-framework-simplejwt.readthedocs.io/en/latest/customizing_token_claims.html
+
+
+class MyTokenObtainPairSerializer(TokenObtainPairSerializer):
+
+    # overriding validate method to serialize more information
+
+    def validate(self, attrs):
+        data = super().validate(attrs)
+
+        # include these information in the response so that we don't have to parse token
+        # in the frontend to get the user id and make another request to get the user info.
+        data['username'] = self.user.username
+        data['email'] = self.user.email
+
+        return data
+
+
+class MyTokenObtainPairView(TokenObtainPairView):
+    serializer_class = MyTokenObtainPairSerializer

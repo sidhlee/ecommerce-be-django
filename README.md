@@ -37,6 +37,16 @@ Contrib includes packages like admin, auth, humanize, messages, postgres, and re
 Unlike NoSQL database like MongoDB, things can get tangled up pretty quick working with relational database, especially when you make many revisions to your fields.
 You can reset your database in Django with the following steps:
 
+## Django Views
+
+A view is a function or method that takes a request and returns a response. Django
+
+- Django Views = Express Routers + Controllers
+
+You can use class-based view to improve the code structure and reusability through mixin
+
+- [Introduction to class-based views](https://docs.djangoproject.com/en/3.2/topics/class-based-views/intro/)
+
 ### Reset SQLite3 Database
 
 1. Delete `db.sqlite3` file
@@ -73,6 +83,10 @@ From [Django REST framework documentation](https://www.django-rest-framework.org
 > Unlike the built-in TokenAuthentication scheme, JWT Authentication doesn't need to use a database to validate a token. A package for JWT authentication is djangorestframework-simplejwt which provides some features as well as a pluggable token blacklist app.
 
 [Simple JWT documentation](https://django-rest-framework-simplejwt.readthedocs.io/en/latest/)
+
+### Changing the encoded value inside JWT
+
+You can customize the "claims" in JWT by creating a subclass for
 
 ## Troubleshoot
 
