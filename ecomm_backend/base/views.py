@@ -1,6 +1,8 @@
 from decouple import config
 import requests
 from django.contrib.auth.models import User
+from django.contrib.auth.hashers import make_password
+from rest_framework import status
 from rest_framework.decorators import api_view, permission_classes
 from rest_framework.permissions import IsAuthenticated, IsAdminUser
 from rest_framework.response import Response
@@ -204,3 +206,22 @@ def getUsers(request):
     serialized_users = UserSerializer(users, many=True).data
 
     return Response(serialized_users)
+
+
+@api_view(['POST'])
+def registerUser(request):
+    data = request.data
+
+    try:
+        user = User.objects.create(
+            first_name=data['name'],
+            username=data['email'],
+            email=data['email'],
+            password=make_password(data['password'])
+        )
+    except:
+        message = {'detail': 'User with this email already exists'}
+        return Response(message, status=status.HTTP_400_BAD_REQUEST)
+
+    serialized_user_with_token = UserSerializerWithToken(user, many=False).data
+    return Response(serialized_user_with_token)
