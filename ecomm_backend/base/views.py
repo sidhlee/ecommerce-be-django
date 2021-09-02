@@ -1,6 +1,8 @@
 from decouple import config
 import requests
-from rest_framework.decorators import api_view
+from django.contrib.auth.models import User
+from rest_framework.decorators import api_view, permission_classes
+from rest_framework.permissions import IsAuthenticated, IsAdminUser
 from rest_framework.response import Response
 from rest_framework_simplejwt.views import TokenObtainPairView
 from rest_framework_simplejwt.serializers import TokenObtainPairSerializer
@@ -181,11 +183,24 @@ class MyTokenObtainPairView(TokenObtainPairView):
 
 
 @api_view(['GET'])
+@permission_classes([IsAuthenticated])
 def getUserProfile(request):
     # This user object will NOT be the usual user object Django attaches to the request.
     # Instead, the @api_view decorator will parse the user data from the token and add to request.
     user = request.user
 
+    # Without permission decorator, user will still be able to make request without token
+    # and this will throw an AttributeError because the user object is not populated with authenticated user info
     serialized_user = UserSerializer(user, many=False).data
 
     return Response(serialized_user)
+
+
+@api_view(['GET'])
+# No need for IsAuthenticated because if you're an admin user, you're authenticated.
+@permission_classes([IsAdminUser])
+def getUsers(request):
+    users = User.objects.all()
+    serialized_users = UserSerializer(users, many=True).data
+
+    return Response(serialized_users)
