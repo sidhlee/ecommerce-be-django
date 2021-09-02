@@ -131,3 +131,36 @@ These are the serializer fields available in DRF:
 
 - Custom fields
   - [Examples for creating DRF Serializer custom fields](https://www.django-rest-framework.org/api-guide/fields/#examples)
+
+## Protecting routes with decorator
+
+You can add `@permission_classes` decorator from `rest_framework.decorators` and pass appropriate permission classes to limit the access to certain routes.
+
+```python
+from rest_framework.decorators import api_view, permission_classes
+from rest_framework.permissions import IsAuthenticated, IsAdminUser
+from ..serializers import UserSerializer, UserSerializerWithToken
+
+@api_view(['GET'])
+@permission_classes([IsAuthenticated])
+def getUserProfile(request):
+    # This user object will NOT be the usual user object Django attaches to the request.
+    # Instead, the @api_view decorator will parse the user data from the token and add to request.
+    user = request.user
+
+    # Without permission decorator, user will still be able to make request without token
+    # and this will throw an AttributeError because the user object is not populated with authenticated user info
+    serialized_user = UserSerializer(user, many=False).data
+
+    return Response(serialized_user)
+
+
+@api_view(['GET'])
+# No need for IsAuthenticated because if you're an admin user, you're authenticated.
+@permission_classes([IsAdminUser])
+def getUsers(request):
+    users = User.objects.all()
+    serialized_users = UserSerializer(users, many=True).data
+
+    return Response(serialized_users)
+```
