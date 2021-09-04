@@ -42,7 +42,9 @@ INSTALLED_APPS = [
     'corsheaders',
     'rest_framework',
 
-    'base.apps.BaseConfig'
+    'base.apps.BaseConfig',
+
+    'accounts'  # for custom usermodel using email instead of username
 ]
 
 MIDDLEWARE = [
@@ -87,6 +89,14 @@ DATABASES = {
     }
 }
 
+# Specify the model to use for authentication
+AUTH_USER_MODEL = "accounts.Account"
+# Connect the created backends
+AUTHENTICATION_BACKENDS = (
+    'django.contrib.auth.backends.AllowAllUsersModelBackend',
+    'accounts.backends.CaseInsensitiveModelBackend'
+)
+
 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
@@ -105,7 +115,6 @@ AUTH_PASSWORD_VALIDATORS = [
         'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
     },
 ]
-
 
 # Internationalization
 # https://docs.djangoproject.com/en/3.2/topics/i18n/

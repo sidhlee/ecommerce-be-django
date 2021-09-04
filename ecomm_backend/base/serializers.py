@@ -1,7 +1,10 @@
 from rest_framework import serializers
-from django.contrib.auth.models import User
+# from django.contrib.auth.models import User
 from .models import Product, Variant
 from rest_framework_simplejwt.tokens import RefreshToken
+
+from django.contrib.auth import get_user_model
+User = get_user_model()
 
 
 class ProductSerializer(serializers.ModelSerializer):
@@ -30,7 +33,7 @@ class UserSerializer(serializers.ModelSerializer):
 
     # DRF will call this method and set it as the value for 'name' field
     def get_name(self, obj: User):
-        name = obj.first_name
+        name = obj.username
 
         if name == '':
             name = obj.email
