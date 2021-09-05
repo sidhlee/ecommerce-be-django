@@ -20,6 +20,7 @@ class Product(models.Model):
 
 class Variant(models.Model):
     id = models.PositiveIntegerField(unique=True, primary_key=True)
+    variant_id = models.PositiveIntegerField(null=True)
     name = models.CharField(max_length=200, null=False, blank=False)
     # When the product gets deleted, delete all its variants
     # https://docs.djangoproject.com/en/3.2/topics/db/examples/many_to_one/
@@ -33,7 +34,7 @@ class Variant(models.Model):
     image_url = models.URLField(max_length=200)
     thumbnail_url = models.URLField(max_length=200, null=True, blank=True)
     likes = models.PositiveIntegerField(default=0)
-    created_at = models.DateTimeField(auto_now_add=True)
+    created_at = models.DateTimeField(auto_now_add=True, null=True)
 
     def __str__(self):
         return str(f'{self.id}_{self.name}')

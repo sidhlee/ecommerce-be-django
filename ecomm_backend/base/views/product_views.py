@@ -104,6 +104,7 @@ def sync_products(request):
         for v in sync_variants:
             variant = Variant(
                 id=v["id"],
+                variant_id=v["variant_id"],
                 name=v["name"],
                 product=product,
                 product_name=v["product"]["name"],

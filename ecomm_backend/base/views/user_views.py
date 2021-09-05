@@ -87,9 +87,11 @@ def registerUser(request):
 @api_view(['PUT'])
 @permission_classes([IsAuthenticated])
 def updateUserProfile(request):
+    # get user from the access token
     user = request.user
-    serializer = UserSerializerWithToken(user, many=False)
+    serialized_user_with_token = UserSerializerWithToken(user, many=False).data
 
+    # get request body
     data = request.data
 
     # update username and email
@@ -103,4 +105,4 @@ def updateUserProfile(request):
 
     user.save()
 
-    return Response(serializer.data)
+    return Response(serialized_user_with_token)
