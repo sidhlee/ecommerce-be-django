@@ -72,8 +72,7 @@ def registerUser(request):
 
     try:
         user = User.objects.create(
-            first_name=data['name'],
-            username=data['email'],
+            username=data['username'],
             email=data['email'],
             password=make_password(data['password'])
         )
@@ -83,3 +82,25 @@ def registerUser(request):
 
     serialized_user_with_token = UserSerializerWithToken(user, many=False).data
     return Response(serialized_user_with_token)
+
+
+@api_view(['PUT'])
+@permission_classes([IsAuthenticated])
+def updateUserProfile(request):
+    user = request.user
+    serializer = UserSerializerWithToken(user, many=False)
+
+    data = request.data
+
+    # update username and email
+    user.username = data['username']
+    user.email = data['email']
+
+    # update password only when it has a value
+    if data['password'] != '':
+        # hash password before save
+        user.password = make_password(data['password'])
+
+    user.save()
+
+    return Response(serializer.data)
